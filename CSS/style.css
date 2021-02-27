@@ -1,0 +1,221 @@
+
+
+body {
+    height:100%;
+    /* background-attachment: fixed; */
+    /* background-color: whitesmoke; */
+
+}
+
+.btn {
+    align-items: center;
+}
+
+/* @keyframes image01 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  } */
+
+.background { 
+    background-image: url('../images/zoe-mccrum-rXQ-ZQr8M0s-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+   height: 100vh;
+   margin: 0;
+   background-size: cover;
+   z-index: 10;
+   opacity: 0;
+  } 
+ 
+
+/* #background { 
+    display: flex;
+    background-image: url("../images/zoe-mccrum-rXQ-ZQr8M0s-unsplash.jpg");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size:100%;
+    justify-content: space-between;
+ /* }   */
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+
+.title {
+    text-align: center;
+    color:rgb(73, 24, 73)
+}
+
+.col img h1 {
+    height: 500px;
+    width: 1200px;
+    align-items: center;
+    text-align: center;
+}
+
+.my-story {
+    height: 1000px;
+    width: 1000px;
+    padding: 20%;
+    size:1000px;
+}
+
+hr {
+    height: 10px;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    border-top: royalblue;
+    border-width: 100px;
+}
+
+nav {
+    display: flex;
+    width: 73%;
+    padding: 1%;
+    width: 50%;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.inline-block {
+    display: flex;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-between;
+    text-decoration: none; 
+} 
+
+.nav-bar {
+    font-family: 'Cutive Mono', monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    align-items:flex-start;
+    padding: 38px;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-item {
+    font-family: 'Cutive Mono', monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    align-items:flex-start;
+    padding: 38px;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.nav-link {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.nav-item a {
+    background-color: rgb(73, 24, 73);
+    color: whitesmoke;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: white;
+    transition: all ease 1s;
+}
+
+.nav-item a:hover {
+    background-color: rgb(248, 248, 248);
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: rgb(121, 53, 53);
+}
+
+.hero {
+    height: 300px;
+    padding: 25px;
+}
+
+.mySkills h1 {
+    text-align: center;
+}
+
+.content {
+    font-family: 'Cutive Mono', monospace;
+    margin: 0 auto;
+    width: 500px;
+    padding: 15px 15px;
+    vertical-align: middle;
+    border: 5px solid black;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+} 
+
+
+.flexContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
+
+}
+
+.flexChild {
+    width: 33%;
+    padding: 5px;
+    margin: auto;
+    flex-direction: column;
+}
+
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    width: 50%;
+    margin-left: auto;
+}
+
+.myWork h1 {
+    text-align: center;
+}
+
+.workGrid {
+    display: grid;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+footer {
+    background-color: #373738;
+    padding: 45px;
+}
+
+@media only screen and (max-width: 600) {
+        .flexContainer {
+        flex-direction: column;
+     }
+        .flexChild {
+            width: 100%;
+        }
+
+}
